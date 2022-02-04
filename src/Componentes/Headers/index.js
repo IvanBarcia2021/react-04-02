@@ -1,4 +1,8 @@
 import React from 'react';
+//{ fideos }
+import fideos from "./Imagenes/fideos.jpg";
+
+
 export const Header = () => {
     return (
       <header>
@@ -8,7 +12,8 @@ export const Header = () => {
 <a href="#"> 
 
 <div className="logo"> </div>
-<img src="" alt=""/>
+<img src={ fideos }alt=""/>
+
 </a>
  
         </div>
