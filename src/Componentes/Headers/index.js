@@ -1,7 +1,7 @@
 import React from 'react';
 //{ fideos }
 //import fideos from {require ("./Imagenes/tomates.jpg"});
-import fideos from '/Imagenes/fideos.jpg';
+//import fideos from './Imagenes/fideos.jpg';
 
 export const Header = () => {
     return (
@@ -12,7 +12,7 @@ export const Header = () => {
 <a href="#"> 
 
 <div className="logo"> </div>
-<img src={ fideos }> </img>
+
 
 </a>
  
